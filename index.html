@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/html-css_68_kiianskii-project-smart-team/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenHarvest</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/html-css_68_kiianskii-project-smart-team/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/html-css_68_kiianskii-project-smart-team/assets/index-4cde61bc.css">
+  </head>
+  <body id="body">
+    <header class="header">
+      <div class="container header-container">
+  <a href="./index.html" class="logo" aria-label="Green Harvest logo">
+    <svg class="icon" width="18" height="18">
+      <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-logo"></use>
+    </svg>
+    <svg class="icon" width="168" height="18">
+      <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-logo-name"></use>
+    </svg>
+  </a>
+  <a href="./index.html" class="logo-mob" aria-label="Green Harvest logo">
+    <svg class="icon" width="16" height="16">
+      <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-logo-mob"></use>
+    </svg>
+    <svg class="icon" width="148" height="12">
+      <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-logo-name-mob"></use>
+    </svg>
+  </a>
+
+  <div class="backdrop" id="menuModal">
+    <nav class="nav">
+      <ul class="nav-list" id="navList">
+        <li class="nav-item">
+          <a href="#how" class="nav-link nav-link-white">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a href="#vegetables" class="nav-link">Vegetables</a>
+        </li>
+        <li class="nav-item">
+          <a href="#reviews" class="nav-link">Reviews</a>
+        </li>
+      </ul>
+      <a
+        href="#order"
+        class="nav-link nav-link-pink nav-link-white"
+        id="navLink"
+        >Shop now</a
+      >
+    </nav>
+  </div>
+  <button
+    class="menu-btn"
+    type="button"
+    aria-label="Open menu button"
+    data-modal-show
+  >
+    <svg class="icon" width="40" height="40">
+      <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-menu"></use>
+    </svg>
+  </button>
+  <button
+    class="menu-btn close-btn"
+    type="button"
+    aria-label="Close menu button"
+    data-modal-close
+  >
+    <svg class="icon" width="40" height="40">
+      <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-x"></use>
+    </svg>
+  </button>
+</div>
+
+    </header>
+    <main>
+      <section class="hero-section">
+  <div class="container">
+    <div class="hero-wrapper">
+      <h1 class="hero-title">organic vegetables to your diet today!</h1>
+      <p class="hero-text">
+        Our expertly curated vegetable baskets are made with the freshest,
+        highest quality vegetables available. Fresh Harvest Box has got you
+        covered. Fresh, high-quality vegetables in expertly curated vegetable
+        baskets delivered to you.
+      </p>
+    </div>
+    <div class="hero-img">
+      <picture class="img-hero">
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/box-fruits@1x_webp-9e6a8005.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/box-fruits@2x_webp-015154c5.webp 2x"
+          type="image/webp"
+        />
+
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/box-fruits@1x-adb7c028.jpg 1x, /html-css_68_kiianskii-project-smart-team/assets/box-fruits@2x-ec581404.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/box-fruits-tab@1x_webp-3191ee29.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/box-fruits-tab@2x_webp-99022ef2.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/box-fruits-tab@1x-658aacf8.jpg 1x, /html-css_68_kiianskii-project-smart-team/assets/box-fruits-tab@2x-01449b53.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/box-fruits-mob@1x_webp-4506f566.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/box-fruits-mob@2x_webp-40d5853c.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/box-fruits-mob@1x-22b1e699.jpg 1x, /html-css_68_kiianskii-project-smart-team/assets/box-fruits-mob@2x-43f1a949.jpg 2x"
+          type="image/jpg"
+        />
+        <img
+          class="img-hero"
+          src="/html-css_68_kiianskii-project-smart-team/assets/box-fruits-mob@1x-22b1e699.jpg"
+          alt="Box with fruits"
+          width="375"
+          height="370"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="section-list" id="how">
+  <div class="container container-wrapper">
+    <h2 class="visually-hidden">How it works</h2>
+    <div class="container-picture">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/woman-deck-5e5abc5c.avif 1x, /html-css_68_kiianskii-project-smart-team/assets/woman-deck@2x-89d9b76d.avif 2x"
+          type="image/avif"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/cooking@1x_webp-f5473413.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/cooking@2x_webp-19073235.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/cooking@1x-3e2d7c2f.png 1x, /html-css_68_kiianskii-project-smart-team/assets/cooking@2x-68db7aa3.png 2x"
+          type="image/png"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/woman-tab-79fe43cc.avif 1x, /html-css_68_kiianskii-project-smart-team/assets/woman-tab@2x-f64d5b0f.avif 2x"
+          type="image/avif"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/cooking-tab@1x_webp-c4c259fa.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/cooking-tab@2x_webp-3304425d.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/cooking-tab@1x-8ff917f5.png 1x, /html-css_68_kiianskii-project-smart-team/assets/cooking-tab@2x-ec6ec529.png 2x"
+          type="image/png"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/woman-mob-97b24014.avif 1x, /html-css_68_kiianskii-project-smart-team/assets/woman-mob@2x-a875521b.avif 2x"
+          type="image/avif"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/cooking-mob@1x_webp-18d2300d.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/cooking-mob@2x_webp-51d0c370.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/cooking-mob@1x-2e55fe18.png 1x, /html-css_68_kiianskii-project-smart-team/assets/cooking-mob@2x-0443a007.png 2x"
+          type="image/png"
+        />
+        <img
+          class="wrapper-img"
+          src="/html-css_68_kiianskii-project-smart-team/assets/cooking@1x-3e2d7c2f.png"
+          alt="Cooking woman"
+          width="335"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="container-list">
+      <h2 class="wrapper-title">
+        To order your <span class="wrap-text">vegetable</span> basket, simply
+        follow these <span class="wrap-text">easy steps</span>
+      </h2>
+      <p class="text">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home.
+      </p>
+      <ol class="wrapper">
+        <li class="wrapper-list-item">
+          <span class="wrapper-numbers numbers"></span>
+          <p class="items">
+            Just choose <span class="wrap-text-li">the vegetable</span> you want
+            to order by clicking on the checkboxes
+            <span class="wrap-text-li">next to it</span>.
+          </p>
+        </li>
+        <li class="wrapper-list-item list-items">
+          <span class="wrapper-numbers numbers"></span>
+          <p class="items">
+            Click on <span class="wrap-text-li">the basket</span> and fill out
+            the form.
+          </p>
+        </li>
+        <li class="wrapper-list-item">
+          <span class="wrapper-numbers numbers"></span>
+          <p class="items">
+            Sit back and relax! Your
+            <span class="wrap-text-li">fresh vegetables</span> basket will be
+            delivered.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+      <section class="advertisement">
+  <div class="container">
+    <h2 class="visually-hidden">Advertisement</h2>
+    <p class="advertisement-wrapper">
+      <span class="advertisement-discount">Discount up to 40%!</span> Taste the
+      vitamins and keep your health
+    </p>
+  </div>
+</section>
+
+      <section class="vegetables" id="vegetables">
+  <div class="vegetables-conteiner container">
+    <h2 class="vegetables-title">
+      organic
+      <span class="vegetables-accent">vegetables</span>
+    </h2>
+    <div class="vegetables-pb">
+      <p class="vegetables-story">
+        Our organic vegetables are hand-picked from local farms and delivered
+        straight to your doorstep, ensuring that you get the freshest and most
+        nutritious produce possible.
+      </p>
+      <a class="vegetables-btn" href="#order"> Shop now </a>
+    </div>
+    <ul class="vegetables-list">
+      <li class="vegetables-item">
+        <h3 class="vegetables-caption">eggplant</h3>
+        <p class="vegetables-price">60 UAH / kg</p>
+        <img
+          class="vegetables-icon"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/eggplant@1x-0c441ff3.png 1x, /html-css_68_kiianskii-project-smart-team/assets/eggplant@2x-40ae8ee6.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/eggplant@1x-0c441ff3.png"
+          alt="fresh-eggplant"
+          width="282"
+          height="243"
+          loading="lazy"
+        />
+      </li>
+      <li class="vegetables-item">
+        <h3 class="vegetables-caption">leek</h3>
+        <p class="vegetables-price">50 UAH / kg</p>
+        <img
+          class="vegetables-icon"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/leek@1x-1947985a.png 1x, /html-css_68_kiianskii-project-smart-team/assets/leek@2x-49b8e653.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/leek@1x-1947985a.png"
+          alt="fresh-leek"
+          width="282"
+          height="243"
+          loading="lazy"
+        />
+      </li>
+      <li class="vegetables-item">
+        <h3 class="vegetables-caption">mushrooms</h3>
+        <p class="vegetables-price">40 UAH / kg</p>
+        <img
+          class="vegetables-icon"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/mushrooms@1x-a4714970.png 1x, /html-css_68_kiianskii-project-smart-team/assets/mushrooms@2x-8eced140.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/mushrooms@1x-a4714970.png"
+          alt="fresh-mushrooms"
+          width="282"
+          height="243"
+          loading="lazy"
+        />
+      </li>
+      <li class="vegetables-item">
+        <h3 class="vegetables-caption">corn</h3>
+        <p class="vegetables-price">60 UAH / kg</p>
+        <img
+          class="vegetables-icon"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/corn@1x-b8586211.png 1x, /html-css_68_kiianskii-project-smart-team/assets/corn@2x-e7e7b672.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/corn@1x-b8586211.png"
+          alt="fresh-corn"
+          width="282"
+          height="243"
+          loading="lazy"
+        />
+      </li>
+      <li class="vegetables-item">
+        <h3 class="vegetables-caption">sweet potatoes</h3>
+        <p class="vegetables-price">50 UAH / kg</p>
+        <img
+          class="vegetables-icon"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/sweet-potatoes@1x-187ee2a1.png 1x, /html-css_68_kiianskii-project-smart-team/assets/sweet-potatoes@2x-455c7dba.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/sweet-potatoes@1x-187ee2a1.png"
+          alt="fresh-sweet-potatoes"
+          width="282"
+          height="243"
+          loading="lazy"
+        />
+      </li>
+      <li class="vegetables-item">
+        <h4 class="vegetables-caption">carrot</h4>
+        <p class="vegetables-price">40 UAH / kg</p>
+        <img
+          class="vegetables-icon"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/carrot@1x-5fcbad5c.png 1x, /html-css_68_kiianskii-project-smart-team/assets/carrot@2x-8f8d3912.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/carrot@1x-5fcbad5c.png"
+          alt="fresh-carrot"
+          width="282"
+          height="243"
+          loading="lazy"
+        />
+      </li>
+    </ul>
+    <div class="button-buttom">
+      <a class="vegetable-btn" href="#order"> Shop now </a>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">
+      reviews from our <span class="reviews-title-span">customers</span>
+    </h2>
+    <p class="reviews-text">
+      Words of our customers: impressions and opinions about the quality of our
+      services and the freshness of our products.
+    </p>
+    <ul class="reviews-list">
+      <li class="reviews-list-item">
+        <img
+          class="reviews-list-image"
+          width="56"
+          height="56"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/john-wax@1x-c5e9f657.png 1x, /html-css_68_kiianskii-project-smart-team/assets/john-wax@2x-6b706c40.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/john-wax@1x-c5e9f657.png"
+          alt="John Wax photo"
+          loading="lazy"
+        />
+        <h3 class="reviews-list-title">John Wax</h3>
+        <p class="reviews-list-text">
+          These vegetables are my secret to delicious and healthy meals. The
+          quality is always at<span class="text-gap">&nbsp;</span> the highest
+          level, the aroma and taste are enchanting. I advise every fan of real
+          products!
+        </p>
+      </li>
+      <li class="reviews-list-item">
+        <img
+          class="reviews-list-image"
+          width="56"
+          height="56"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/victoria@1x-5a3d8356.png 1x, /html-css_68_kiianskii-project-smart-team/assets/victoria@2x-28ec240c.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/victoria@1x-5a3d8356.png"
+          alt="Victoria Romashenko photo"
+          loading="lazy"
+        />
+        <h3 class="reviews-list-title">Victoria Romashenko</h3>
+        <p class="reviews-list-text">
+          I love how fast and fresh the vegetables are delivered. Salads always
+          turn out so appetizing, and soups are real masterpieces. The quality
+          is <br />impeccable!
+        </p>
+      </li>
+      <li class="reviews-list-item">
+        <img
+          class="reviews-list-image"
+          width="56"
+          height="56"
+          srcset="/html-css_68_kiianskii-project-smart-team/assets/ihor-trachuk@1x-b406c222.png 1x, /html-css_68_kiianskii-project-smart-team/assets/ihor-trachuk@2x-327c66f8.png 2x"
+          src="/html-css_68_kiianskii-project-smart-team/assets/ihor-trachuk@1x-b406c222.png"
+          alt="Ihor Trachuk photo"
+          loading="lazy"
+        />
+        <h3 class="reviews-list-title">Ihor Trachuk</h3>
+        <p class="reviews-list-text">
+          Recently tried my fresh tomatoes and peppers - amazing! The
+          authenticity of the taste, as if from the garden directly to my table.
+          It is now my main vegetable supplier.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="order" id="order">
+  <div class="container">
+    <h2 class="order-title">
+      Fresh <span>Harvest</span> Box has got you covered
+    </h2>
+    <p class="order-p">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="order-input-box">
+      <div class="order-form-wrapper">
+        <form class="order-form" name="order-form">
+          <p class="order-form-text">
+            Ordering <span class="purple">from us</span> is quick and easy! Fill
+            out <span class="green">the form</span> below and we will contact
+            you!
+          </p>
+          <div class="input-container">
+            <label for="name" class="input-label"></label>
+            <input
+              id="name"
+              type="text"
+              class="form-input"
+              name="name"
+              placeholder="Full Name"
+              required
+              pattern="[A-Za-z ']{3,}"
+            />
+          </div>
+          <div class="input-container">
+            <label for="email" class="input-label"></label>
+            <input
+              id="email"
+              type="text"
+              class="form-input"
+              name="email"
+              placeholder="Email"
+              required
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            />
+          </div>
+          <div class="input-container">
+            <label for="user-comment" class="input-label"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="order-button">Send</button>
+        </form>
+      </div>
+      <div class="order-follow">
+        <picture class="follow-img">
+          <source
+            media="(min-width: 1280px)"
+            srcset="/html-css_68_kiianskii-project-smart-team/assets/smoothies@1x_webp-a6de9bc6.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/smoothies@2x_webp-c1997ec8.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/html-css_68_kiianskii-project-smart-team/assets/smoothies@1x-73247cd8.png 1x, /html-css_68_kiianskii-project-smart-team/assets/smoothies@2x-c1a2fafa.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/html-css_68_kiianskii-project-smart-team/assets/smoothies-tab@1x_webp-e9256a42.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/smoothies-tab@2x_webp-1c7321f5.webp 2x"
+            type="image/webp"
+          />
+
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/html-css_68_kiianskii-project-smart-team/assets/smoothies-tab@1x-14d48200.png 1x, /html-css_68_kiianskii-project-smart-team/assets/smoothies-tab@2x-72e3cae7.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 320px) and (max-width: 767px)"
+            srcset="/html-css_68_kiianskii-project-smart-team/assets/smoothies-mob@1x_webp-c92414fc.webp 1x, /html-css_68_kiianskii-project-smart-team/assets/smoothies-mob@2x_webp-362c3e4d.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 320px) and (max-width: 767px)"
+            srcset="/html-css_68_kiianskii-project-smart-team/assets/smoothies-mob@1x-f76da5a1.png 1x, /html-css_68_kiianskii-project-smart-team/assets/smoothies-mob@2x-b6107695.png 2x"
+            type="image/png"
+          />
+          <img
+            class="smoothie-img"
+            src="/html-css_68_kiianskii-project-smart-team/assets/smoothies-mob@1x-f76da5a1.png"
+            alt="Bottle Smoothies"
+            loading="lazy"
+          />
+        </picture>
+        <p class="follow-text">Follow us on our social networks:</p>
+        <ul class="follow-list">
+          <li class="follow-list-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="follow-social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              instagram
+            </a>
+          </li>
+          <li class="follow-list-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="follow-social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              facebook
+            </a>
+          </li>
+          <li class="follow-list-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="follow-social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              youtube
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer-section">
+  <div class="container">
+    <div class="blocks">
+      <div class="footer-top">
+        <a href="" class="logo-link logo-mobile" aria-label="Green Harvest logo"
+          ><svg class="logo-mobile" width="168" height="16">
+            <use href="/html-css_68_kiianskii-project-smart-team/assets/icons-43024390.svg#icon-logo-footer"></use>
+          </svg>
+        </a>
+
+        <p class="footer-top-p">
+          Whether you're looking for a healthy snack or a thoughtful gift, our
+          fruit baskets are the perfect choice.
+        </p>
+      </div>
+      <div class="footer-middle">
+        <ul class="nav-ul">
+          <li><a class="nav-a" href="#how">how it works</a></li>
+          <li><a class="nav-a" href="#vegetables">vegetables</a></li>
+          <li><a class="nav-a" href="#reviews">reviews</a></li>
+        </ul>
+        <ul class="address-ul">
+          <li>
+            <a class="address-a" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <li>
+            <a class="address-a" href=""
+              >1678 S. Pioneer Road Salt Lake City UT 84104</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="privacy">
+        <a href="" class="privacy-a">Privacy Policy</a>
+        <span class="privacy-text">/</span>
+        <a href="" class="privacy-a">Cookie settings</a>
+      </div>
+      <p class="footer-bottom-p">©Green Harvest 2023</p>
+    </div>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>

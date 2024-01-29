@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "bcon-68-smart-team",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-smart-team/",
+    "build": "vite build --base=/html-css_68_kiianskii-project-smart-team/",
     "preview": "vite preview"
   },
   "devDependencies": {
